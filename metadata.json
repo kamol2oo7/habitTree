@@ -1,0 +1,6 @@
+{
+  "name": "Habitree",
+  "description": "Grow your forest of healthy habits through daily consistency and visual progress tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

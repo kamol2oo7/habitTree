@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Stylized Geometric Habitree Icon (Recreation of User Asset) -->
+    <!-- Base Bar at the Bottom -->
+    <path
+        android:pathData="M39,82 L69,82"
+        android:strokeColor="#5A876B"
+        android:strokeWidth="7"
+        android:strokeLineCap="butt" />
+
+    <!-- Right-Curving Curved Trunk Branch -->
+    <path
+        android:pathData="M50,74 C50,60 56,46 78,45"
+        android:strokeColor="#5A876B"
+        android:strokeWidth="7"
+        android:strokeLineCap="butt" />
+
+    <!-- S-Curving Main Vertical Branch -->
+    <path
+        android:pathData="M50,22 C48,46 45,52 30,64"
+        android:strokeColor="#5A876B"
+        android:strokeWidth="7"
+        android:strokeLineCap="butt" />
+
+    <!-- Left Horizontal Branch -->
+    <path
+        android:pathData="M45,46 L24,46"
+        android:strokeColor="#5A876B"
+        android:strokeWidth="7"
+        android:strokeLineCap="butt" />
+
+    <!-- Right Diagonal Upward Branch -->
+    <path
+        android:pathData="M56,38 L72,25"
+        android:strokeColor="#5A876B"
+        android:strokeWidth="7"
+        android:strokeLineCap="butt" />
+
+    <!-- Upper-Left Diamond Leaf Dot -->
+    <path
+        android:pathData="M33,24 L39,30 L33,36 L27,30 Z"
+        android:fillColor="#5A876B" />
+
+    <!-- Lower-Right Diamond Leaf Dot -->
+    <path
+        android:pathData="M67,55 L73,61 L67,67 L61,61 Z"
+        android:fillColor="#5A876B" />
+</vector>
