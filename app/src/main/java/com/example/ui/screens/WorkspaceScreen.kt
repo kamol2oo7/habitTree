@@ -19,6 +19,8 @@ import androidx.compose.foundation.text.BasicTextField
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.*
 import androidx.compose.material.icons.outlined.*
+import androidx.compose.material.icons.automirrored.filled.TrendingUp
+import androidx.compose.material.icons.automirrored.filled.MenuBook
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
@@ -1676,7 +1678,7 @@ fun DetailedAnalyticsOverlay(
                     StatMetricCard(
                         title = "CONSISTENCY",
                         value = "$consistencyCoef%",
-                        icon = Icons.Default.TrendingUp,
+                        icon = Icons.AutoMirrored.Filled.TrendingUp,
                         iconColor = ColorLavender,
                         modifier = Modifier.weight(1f),
                         isDark = isDark
@@ -1827,7 +1829,7 @@ fun getIconByName(iconName: String): androidx.compose.ui.graphics.vector.ImageVe
         "TERMINAL" -> androidx.compose.material.icons.Icons.Default.Terminal
         "WATER" -> androidx.compose.material.icons.Icons.Default.WaterDrop
         "FITNESS" -> androidx.compose.material.icons.Icons.Default.FitnessCenter
-        "BOOK" -> androidx.compose.material.icons.Icons.Default.MenuBook
+        "BOOK" -> androidx.compose.material.icons.Icons.AutoMirrored.Filled.MenuBook
         "AIR" -> androidx.compose.material.icons.Icons.Default.Air
         "TARGET" -> androidx.compose.material.icons.Icons.Default.TrackChanges
         "BRAIN" -> androidx.compose.material.icons.Icons.Default.Psychology

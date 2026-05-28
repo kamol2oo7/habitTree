@@ -18,4 +18,11 @@ class ExampleRobolectricTest {
     val appName = context.getString(R.string.app_name)
     assertEquals("Habitree", appName)
   }
+
+  @Test
+  fun `test viewModel initialization`() {
+    val application = ApplicationProvider.getApplicationContext<android.app.Application>()
+    val viewModel = com.example.ui.viewmodel.HabitViewModel(application)
+    org.junit.Assert.assertNotNull(viewModel)
+  }
 }
